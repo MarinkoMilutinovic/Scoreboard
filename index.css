@@ -1,0 +1,81 @@
+//font-family: 'Cursed Timer ULiL', sans-serif;
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    color: #EEEEEE;
+}
+
+.content {
+    width: 410px;
+    height: 248px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-guest-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.score-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 120px;
+    background: black;
+}
+
+.points-and-adders {
+    width: 155px;
+    height: 191px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3 {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+p {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 12px; 
+}
+
+.add-points {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+}
+
+.btn {
+    width: 45px;
+    background: #1B244A;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px; 
+    color: #EEEEEE;
+    font-family: 'Cursed Timer ULiL', sans-serif; 
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
